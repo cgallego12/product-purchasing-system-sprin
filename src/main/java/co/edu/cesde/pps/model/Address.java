@@ -25,6 +25,8 @@ import java.util.Objects;
  * - N:1 con User (muchas direcciones pertenecen a un usuario)
  * - 1:N con Order (como shipping_address_id o billing_address_id)
  */
+
+
 public class Address {
 
     private Long addressId;
